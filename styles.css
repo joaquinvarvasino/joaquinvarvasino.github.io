@@ -169,7 +169,6 @@ h3 {
 }
 
 .lead,
-.about-grid p,
 .paper-card p,
 .project-card p,
 .cv-panel p {
@@ -295,17 +294,24 @@ h3 {
   background: linear-gradient(180deg, rgba(255, 250, 242, 0.94), rgba(236, 228, 216, 0.94));
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
 .paper-card,
 .project-card,
 .cv-panel,
 .contact-card {
   padding: 1.6rem;
+}
+
+.paper-card a,
+.project-card a {
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+
+.paper-card a:hover,
+.project-card a:hover,
+.paper-card a:focus-visible,
+.project-card a:focus-visible {
+  text-decoration: underline;
 }
 
 .card-topline {
@@ -353,6 +359,23 @@ h3 {
   gap: 1.2rem;
 }
 
+.project-links,
+.teaching-meta {
+  margin-top: 0.8rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.teaching-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.work-card {
+  max-width: 52rem;
+}
+
 .project-card:nth-child(1) {
   animation-delay: 120ms;
 }
@@ -368,6 +391,7 @@ h3 {
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .contact-card {
@@ -394,8 +418,8 @@ h3 {
 
 @media (max-width: 920px) {
   .hero,
-  .about-grid,
   .project-grid,
+  .teaching-grid,
   .contact-grid {
     grid-template-columns: 1fr;
   }
