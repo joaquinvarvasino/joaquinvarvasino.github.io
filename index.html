@@ -24,7 +24,6 @@
         <a href="#research">Research</a>
         <a href="#projects">Projects</a>
         <a href="#teaching">Teaching</a>
-        <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
         <a href="#work">Work</a>
       </nav>
@@ -153,35 +152,28 @@
           <article class="paper-card">
             <h3>Universitat Pompeu Fabra</h3>
             <p class="teaching-meta">Teaching Assistant, 2022 - 2025</p>
-            <p>
-              Data Science and Business Economics for undergraduate students.
-            </p>
-            <p class="project-links">
-              Teaching Prize for PhD Students (2024) - Universitat Pompeu Fabra
-            </p>
+            <ul class="teaching-list">
+              <li>
+                <strong>Data Science and Business Economics</strong>
+                <span>Undergraduate</span>
+              </li>
+            </ul>
+            <p class="teaching-award">Teaching Prize for PhD Students (2024)</p>
           </article>
           <article class="paper-card">
             <h3>Universidad Nacional de La Plata</h3>
             <p class="teaching-meta">Teaching Assistant, 2018 - 2021</p>
-            <p>
-              Introduction to Economics and Labor Economics for undergraduates, and
-              Advanced Microeconomics and Labor Economics for graduate students.
-            </p>
+            <ul class="teaching-list">
+              <li>
+                <strong>Introduction to Economics and Labor Economics</strong>
+                <span>Undergraduate</span>
+              </li>
+              <li>
+                <strong>Advanced Microeconomics and Labor Economics</strong>
+                <span>Graduate</span>
+              </li>
+            </ul>
           </article>
-        </div>
-      </section>
-
-      <section class="section section-soft" id="cv">
-        <div class="section-heading">
-          <p class="section-kicker">Curriculum Vitae</p>
-          <h2>Download the full CV</h2>
-        </div>
-        <div class="cv-panel">
-          <p>
-            The CV includes education, research experience, teaching, awards, and ongoing
-            work.
-          </p>
-          <a class="button button-primary" href="assets/docs/joaquin-varvasino-cv.pdf">Open CV</a>
         </div>
       </section>
 
@@ -190,23 +182,25 @@
           <p class="section-kicker">Contact</p>
           <h2>Get in touch</h2>
         </div>
-        <div class="contact-grid">
-          <div class="contact-card">
-            <span class="contact-label">Email</span>
-            <strong>joaquin.varvasino [at] upf.edu</strong>
+        <div class="contact-panel">
+          <p class="contact-email">joaquin.varvasino [at] upf.edu</p>
+          <div class="social-links" aria-label="Social links">
+            <a class="social-link" href="https://scholar.google.com/citations?user=OS49Cc4AAAAJ&amp;hl=es&amp;oi=ao" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 1.5 8.6 12 14.2 22.5 8.6 12 3Z"></path>
+                <path d="M5 11.2v4.3c0 .7 2.9 2.8 7 2.8s7-2.1 7-2.8v-4.3l-7 3.7-7-3.7Z"></path>
+                <circle cx="19.3" cy="14.8" r="1.2"></circle>
+                <path d="M19.3 16v3.2"></path>
+              </svg>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/joaquin-varvasino-826819135/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3.2" y="8.4" width="4.1" height="12.4" rx="0.8"></rect>
+                <circle cx="5.25" cy="4.95" r="1.85"></circle>
+                <path d="M10 8.4h3.9v1.7c.8-1.2 2.3-2 4.3-2 3.4 0 5.3 2.1 5.3 6.1v6.6h-4.2v-5.9c0-2-.8-3.1-2.4-3.1-1.8 0-2.7 1.2-2.7 3.1v5.9H10V8.4Z"></path>
+              </svg>
+            </a>
           </div>
-          <a class="contact-card" href="https://scholar.google.com/citations?user=OS49Cc4AAAAJ&amp;hl=es&amp;oi=ao" target="_blank" rel="noreferrer">
-            <span class="contact-label">Google Scholar</span>
-            <strong>Profile</strong>
-          </a>
-          <a class="contact-card" href="https://www.linkedin.com/in/joaquin-varvasino-826819135/" target="_blank" rel="noreferrer">
-            <span class="contact-label">LinkedIn</span>
-            <strong>Profile</strong>
-          </a>
-          <a class="contact-card" href="https://github.com/joaquinvarvasino" target="_blank" rel="noreferrer">
-            <span class="contact-label">GitHub</span>
-            <strong>joaquinvarvasino</strong>
-          </a>
         </div>
       </section>
 
@@ -221,9 +215,9 @@
             company with three partners focused on AI training for administrative staff and
             university faculty.
           </p>
-          <p class="project-links">
-            <a href="https://bitbybit.cat/" target="_blank" rel="noreferrer">Bitbybit.cat</a>
-          </p>
+          <a class="bitbybit-link" href="https://bitbybit.cat/" target="_blank" rel="noreferrer">
+            <img src="assets/bitbybit-logo.png" alt="Bitbybit.cat logo">
+          </a>
         </article>
       </section>
     </main>
