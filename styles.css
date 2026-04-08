@@ -446,13 +446,13 @@ h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.05rem;
-  height: 2.05rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: rgba(255, 250, 242, 0.95);
   color: var(--accent-deep);
-  box-shadow: 0 8px 18px rgba(31, 47, 64, 0.05);
+  box-shadow: 0 10px 22px rgba(31, 47, 64, 0.06);
   transition: transform 180ms ease, color 180ms ease, border-color 180ms ease;
 }
 
@@ -463,8 +463,8 @@ h3 {
 }
 
 .social-icon {
-  width: 0.82rem;
-  height: 0.82rem;
+  width: 1.55rem;
+  height: 1.55rem;
   flex: 0 0 auto;
   fill: none;
   stroke: currentColor;
