@@ -234,6 +234,21 @@ h3 {
   animation-delay: 120ms;
 }
 
+.profile-photo-wrap {
+  margin-bottom: 1.4rem;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 16px 32px rgba(31, 47, 64, 0.12);
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
