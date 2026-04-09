@@ -326,6 +326,11 @@ h3 {
   font-weight: 700;
 }
 
+.status-pill-soft {
+  background: rgba(31, 47, 64, 0.08);
+  color: var(--ink-soft);
+}
+
 .coauthors {
   color: var(--ink-soft);
   font-size: 0.96rem;
@@ -344,6 +349,12 @@ h3 {
   height: 220px;
   background: radial-gradient(circle, rgba(138, 106, 63, 0.14), transparent 62%);
   pointer-events: none;
+}
+
+.paper-stack {
+  display: grid;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .project-grid {
