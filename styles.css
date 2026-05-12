@@ -101,6 +101,8 @@ body::before {
 
 .site-nav a:hover,
 .site-nav a:focus-visible,
+.lead a:hover,
+.lead a:focus-visible,
 .text-link:hover,
 .text-link:focus-visible,
 .quick-facts a:hover,
@@ -183,6 +185,17 @@ h3 {
 .lead {
   max-width: 48rem;
   margin: 1.4rem 0 0;
+}
+
+.lead a {
+  color: var(--accent-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lead a:hover,
+.lead a:focus-visible {
+  text-decoration: underline;
 }
 
 .hero-actions,
@@ -318,6 +331,10 @@ h3 {
 
 .section-heading {
   margin-bottom: 1.4rem;
+}
+
+.section-heading-secondary {
+  margin-top: 2.4rem;
 }
 
 .paper-card,
