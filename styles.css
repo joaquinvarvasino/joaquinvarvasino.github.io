@@ -187,14 +187,16 @@ h3 {
   margin: 1.4rem 0 0;
 }
 
-.lead a {
+.hero-copy .lead a,
+.hero-copy .lead a:visited {
   color: var(--accent-deep);
   font-weight: 600;
   text-decoration: none;
 }
 
-.lead a:hover,
-.lead a:focus-visible {
+.hero-copy .lead a:hover,
+.hero-copy .lead a:focus-visible {
+  color: var(--accent-deep);
   text-decoration: underline;
 }
 
