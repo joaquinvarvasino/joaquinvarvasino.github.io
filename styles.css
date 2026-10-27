@@ -187,6 +187,11 @@ h3 {
   margin: 1.4rem 0 0;
 }
 
+.project-card > p:not([class]) {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .hero-copy .lead a,
 .hero-copy .lead a:visited {
   color: var(--accent-deep);
